@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.container h2{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-box-rps{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-box-rps img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 100px 0;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0 0 11px rgba(206, 31, 31, 0.8); 
+}
